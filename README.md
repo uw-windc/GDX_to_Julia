@@ -1,9 +1,11 @@
+# GDX to Julia
 
+This example demonstrates how to extract data from a GDX file using the `gamsapi` package in Python and then load that data into Julia for further analysis. The process involves two main steps: extracting the data from the GDX file and then loading it into Julia.
 
 ## Python Side
 
-Create virtual environment with conda. I believe Conda is required to install
-the `gamsapi` package. 
+Create virtual environment with conda. I believe Conda is required to use
+the `gamsapi` package. The `gamsapi` package requires an installation of GAMS, download a [trial version of GAMS](https://www.gams.com/download/) if you do not have it installed. 
 
 ```bash
 conda create -n gdx_to_julia python=3.13
