@@ -28,7 +28,7 @@ Update the `extract_data.py` script with the input path, name of your GDX file, 
 
 ## Julia Side
 
-Activate and instantiate the Julia environment. All code is located in the `main.jl` script. Four examples are provided, two for national level data and two for household level data. Each example has a section for exporting the data as a DataFrame and a section for exporting the data as a NamedArray. Update the input path and output name as needed. 
+Activate and instantiate the Julia environment. All code is located in the `main.jl` script. Four examples are provided, two for national level data and two for household level data. Each example has a section for exporting the data as a DataFrame and a section for exporting the data as a `NamedArray`. Update the input path and output name as needed. 
 
 To load the data in a Julia script, add the `JLD2` package to the environment and use the `@load` macro to load the data.
 
